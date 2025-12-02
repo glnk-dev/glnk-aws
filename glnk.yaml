@@ -1,1 +1,80 @@
-"/edit": https://github.com/glnk-dev/community/edit/main/users/glnk-aws.yaml
+"/home": "https://console.aws.amazon.com"
+
+"/iam": "https://console.aws.amazon.com/iam/home"
+"/route53": "https://console.aws.amazon.com/route53/v2/home"
+"/cloudfront": "https://console.aws.amazon.com/cloudfront/v3/home"
+"/billing": "https://console.aws.amazon.com/billing/home"
+"/support": "https://console.aws.amazon.com/support/home"
+
+"/ec2/{$1}": "https://console.aws.amazon.com/ec2/v2/home?region={$1}#Instances:"
+"/ec2": "https://console.aws.amazon.com/ec2/v2/home#Instances:"
+
+"/s3/{$1}": "https://s3.console.aws.amazon.com/s3/buckets?region={$1}"
+"/s3": "https://s3.console.aws.amazon.com/s3/buckets"
+
+"/lambda/{$1}": "https://console.aws.amazon.com/lambda/home?region={$1}#/functions"
+"/lambda": "https://console.aws.amazon.com/lambda/home#/functions"
+
+"/cloudwatch/{$1}": "https://console.aws.amazon.com/cloudwatch/home?region={$1}"
+"/cloudwatch": "https://console.aws.amazon.com/cloudwatch/home"
+
+"/vpc/{$1}": "https://console.aws.amazon.com/vpc/home?region={$1}#vpcs:"
+"/vpc": "https://console.aws.amazon.com/vpc/home#vpcs:"
+
+"/rds/{$1}": "https://console.aws.amazon.com/rds/home?region={$1}#databases:"
+"/rds": "https://console.aws.amazon.com/rds/home#databases:"
+
+"/ecs/{$1}": "https://console.aws.amazon.com/ecs/v2/home?region={$1}#/clusters"
+"/ecs": "https://console.aws.amazon.com/ecs/v2/home#/clusters"
+
+"/eks/{$1}": "https://console.aws.amazon.com/eks/home?region={$1}#/clusters"
+"/eks": "https://console.aws.amazon.com/eks/home#/clusters"
+
+"/cfn/{$1}": "https://console.aws.amazon.com/cloudformation/home?region={$1}#/stacks"
+"/cfn": "https://console.aws.amazon.com/cloudformation/home#/stacks"
+
+"/apigw/{$1}": "https://console.aws.amazon.com/apigateway/main/apis?region={$1}"
+"/apigw": "https://console.aws.amazon.com/apigateway/main/apis"
+
+"/sns/{$1}": "https://console.aws.amazon.com/sns/v3/home?region={$1}#/topics"
+"/sns": "https://console.aws.amazon.com/sns/v3/home#/topics"
+
+"/sqs/{$1}": "https://console.aws.amazon.com/sqs/v2/home?region={$1}#/queues"
+"/sqs": "https://console.aws.amazon.com/sqs/v2/home#/queues"
+
+"/dynamodb/{$1}": "https://console.aws.amazon.com/dynamodbv2/home?region={$1}#tables"
+"/dynamodb": "https://console.aws.amazon.com/dynamodbv2/home#tables"
+
+"/elasticache/{$1}": "https://console.aws.amazon.com/elasticache/home?region={$1}#"
+"/elasticache": "https://console.aws.amazon.com/elasticache/home"
+
+"/elb/{$1}": "https://console.aws.amazon.com/ec2/v2/home?region={$1}#LoadBalancers:"
+"/elb": "https://console.aws.amazon.com/ec2/v2/home#LoadBalancers:"
+
+"/secrets/{$1}": "https://console.aws.amazon.com/secretsmanager/home?region={$1}#/listSecrets"
+"/secrets": "https://console.aws.amazon.com/secretsmanager/home#/listSecrets"
+
+"/ssm/{$1}": "https://console.aws.amazon.com/systems-manager/home?region={$1}"
+"/ssm": "https://console.aws.amazon.com/systems-manager/home"
+
+"/codepipeline/{$1}": "https://console.aws.amazon.com/codesuite/codepipeline/pipelines?region={$1}"
+"/codepipeline": "https://console.aws.amazon.com/codesuite/codepipeline/pipelines"
+
+"/codebuild/{$1}": "https://console.aws.amazon.com/codesuite/codebuild/projects?region={$1}"
+"/codebuild": "https://console.aws.amazon.com/codesuite/codebuild/projects"
+
+"/ecr/{$1}": "https://console.aws.amazon.com/ecr/repositories?region={$1}"
+"/ecr": "https://console.aws.amazon.com/ecr/repositories"
+
+"/cloudtrail/{$1}": "https://console.aws.amazon.com/cloudtrail/home?region={$1}#/trails"
+"/cloudtrail": "https://console.aws.amazon.com/cloudtrail/home#/trails"
+
+"/config/{$1}": "https://console.aws.amazon.com/config/home?region={$1}#/dashboard"
+"/config": "https://console.aws.amazon.com/config/home#/dashboard"
+
+"/guardduty/{$1}": "https://console.aws.amazon.com/guardduty/home?region={$1}#/findings"
+"/guardduty": "https://console.aws.amazon.com/guardduty/home#/findings"
+
+"/inspector/{$1}": "https://console.aws.amazon.com/inspector/v2/home?region={$1}#/findings"
+"/inspector": "https://console.aws.amazon.com/inspector/v2/home#/findings"
+
